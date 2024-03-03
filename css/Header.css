@@ -1,0 +1,99 @@
+.nav {
+background-image: url(../pictures/head\ pic\ 1.jpg);    
+background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: large;
+}
+
+.lihead {
+    display: inline-block;
+    padding: 15px;
+    transition: 0.2s !important;
+}
+
+.lihead:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.lihead:hover > a {
+    color: black;
+}
+
+.nav {
+    text-align: center;
+    width: 100%;
+}
+
+.header0 h1 {
+    color: black;
+    position: absolute;
+    top: 5px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.header0 {
+    padding: 0.3%;
+}
+
+.dshop {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.dshop2 {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    padding: 0;
+}
+
+.sidemenu {
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    position: relative;
+    left: 6px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .header0 h1 {
+        font-size: 30px;
+        top: 10px;
+    }
+    
+    .dshop {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .header0 h1 {
+        font-size: 20px;
+        top: 20px;
+    }
+    
+    .nav a {
+        font-size: medium;
+    }
+    .nav ul{
+
+        display: grid;
+    }
+}

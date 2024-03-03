@@ -1,0 +1,117 @@
+.categories {
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+}
+
+.kids,.women,.sale {
+    height: 56vh;
+    width: 55vh;
+    background-color: black;
+    border-left: 1.5px white solid;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.mens {
+    height: 56vh;
+    width: 55vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.mens:hover {
+    height: 56vh;
+    width: 55vh;
+    background-image: url('../pictures/depositphotos_313851112-stock-photo-indian-bearded-male-businessman-showing.jpg');
+    background-size: cover;
+    background-position: center
+}
+
+.women:hover {
+    height: 56vh;
+    width: 55vh;
+    background-image: url('../pictures/534069-monochrome-women-black-dress-tight-clothing-wallpaper-hd-desktop-and-mobile-background.jpg');
+    background-size: cover;
+    background-position: center
+}
+
+.sale:hover {
+    height: 56vh;
+    width: 55vh;
+    background-image: url('../pictures/sale.jpg');
+    background-size: cover;
+    background-position: center
+}
+
+.kids:hover {
+    height: 56vh;
+    width: 55vh;
+    background-image: url('../pictures/HD-wallpaper-cute-baby-girl-in-black-background-is-wearing-black-knit-sweater-cute.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .categories {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .mens{border-top: 1px white solid;}
+
+    .women,.kids,.sale{border-left: none;}
+
+    .kids,
+    .women,
+    .mens,
+    .sale {
+        height: 40vh;
+        width: 100%;
+        border-bottom: 1px white solid;
+        transition: none;
+    }
+
+    .mens:hover,
+    .kids:hover,
+    .women:hover,
+    .sale:hover {
+        height: 40vh;
+        width: 100%;
+        background-image: none; 
+    }
+    .mens,.mens:hover{
+        background-image: url(../pictures/depositphotos_313851112-stock-photo-indian-bearded-male-businessman-showing.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .women,.women:hover{
+        background-image: url(../pictures/534069-monochrome-women-black-dress-tight-clothing-wallpaper-hd-desktop-and-mobile-background.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .sale,.sale:hover{
+        background-size: cover;
+        background-position: center;
+        background-image: url(../pictures/sale.jpg);
+    }
+    .kids,.kids:hover{
+        background-size: cover;
+        background-position: center;
+        background-image: url(../pictures/HD-wallpaper-cute-baby-girl-in-black-background-is-wearing-black-knit-sweater-cute.jpg);
+    }
+}

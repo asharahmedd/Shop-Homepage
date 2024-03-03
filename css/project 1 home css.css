@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+.introduction {
+    margin: 2.5% auto 0 auto;
+    width: 80%;
+}
+
+.welcome {
+    margin: 0 0% 2.5% 0%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 9px;
+    color: black;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.trending {
+    margin: 2.5% auto 0 auto;
+    width: 100%;
+    clear: both !important;
+    display: flex;
+}
+
+h2 {
+    margin: 2.5% auto 0 2%;
+    width: 80%;
+    color: black;
+}
+
+.product-container {
+    width: 80%;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: auto;
+    text-align: center;
+}
+
+.product-column {
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+.details {
+    color: white;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+#main {
+    transition: .5s;
+    padding: 20px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+.product-container0 .heading2{
+color: black;
+}
+
+.checkoutbutton{
+    padding: 10px;
+    border:1px white solid;
+    transition: 0.3s;
+}
+.checkoutbutton:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s
+}
